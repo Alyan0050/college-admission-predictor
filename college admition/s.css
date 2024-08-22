@@ -1,0 +1,335 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+    background: url(./library-books-trinity-college-library-dublin-wallpaper-preview-transformed.jpeg)no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+
+  
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* Header styles */
+h1>a{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    
+}
+.header {
+    background-color: #33333377;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+
+.main {
+    padding: 20px 0;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.welcome-section h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+/* Features section styles */
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 40px;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #f0f0f0; /* Light gray background for features */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.feature i {
+    color: #007bff; /* Blue icon color */
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    color: #333333; /* Dark heading color */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #666666; /* Medium gray text color */
+    font-size: 1.1rem;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #33333377;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    position: -webkit-sticky;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* About and Contact Page Specific Styles */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+.success-message {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+.social-proof {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.social-proof h5 {
+    font-size: 2rem;
+    color: whitesmoke;
+    background-color: #33333377;
+    margin-bottom: 20px;
+   
+
+}
+
+blockquote {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 10px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+blockquote:hover {
+    transform: translateY(-5px); /* Lift the blockquote slightly on hover */
+}
+
+blockquote p2 {
+    font-size: 1.2rem;
+    color:black;
+    margin: 0;
+}
+
+blockquote::before {
+    content: "\201C"; /* Opening quotation mark */
+    font-size: 3rem;
+    color: #007bff;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+blockquote::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media (max-width: 768px) {
+    blockquote {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    blockquote {
+        padding: 10px;
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
